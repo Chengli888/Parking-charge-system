@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab_01"
+    >
+
+
+    <TextView
+        android:text="请您注意由于只设置一段时间，默认为24小时的单位价格相同"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#d62222"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="小型车收费："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="43dp"
+        android:id="@+id/textView9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView8"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="31dp"
+        android:textColor="#0c4063"
+        android:id="@+id/pm_littercar"
+        android:hint="请输入数字" />
+
+    <TextView
+        android:text="元/小时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_toEndOf="@+id/pm_littercar"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:text="大型车收费："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pm_littercar"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/pm_littercar"
+        android:layout_alignEnd="@+id/pm_littercar"
+        android:layout_marginTop="13dp"
+        android:textColor="#0c4063"
+        android:id="@+id/pm_bigcar"
+        android:hint="请输入数字" />
+
+    <TextView
+        android:text="元/小时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_toEndOf="@+id/pm_bigcar"
+        android:id="@+id/textView12" />
+
+    <Button
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pm_bigcar"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_marginTop="110dp"
+        android:clickable="true"
+        android:id="@+id/bt_single" />
+</RelativeLayout>

@@ -1,0 +1,233 @@
+{
+  "parent": [
+    {
+      "name": "打印",
+      "chhildList": [
+        {
+          "name": "打印",
+          "action": "10",
+          "action_name": "ACTION_TEST_PRINT",
+          "class_name":"action.printer.ActionTestPrint"
+        }
+      ]
+    },
+    {
+      "name": "安全存储",
+      "chhildList": [
+        {
+          "name": "文件存储",
+          "action": "23",
+          "action_name": "ACTION_STORE_FILE",
+          "class_name":"action.secstorage.ActionStoreFile"
+        },
+        {
+          "name": "小屏显示字符",
+          "action": "20",
+          "action_name": "ACTION_READ_FILE",
+          "class_name":"action.secstorage.ActionReadFile"
+        },
+        {
+          "name": "传EMV参数",
+          "action": "21",
+          "action_name": "ACTION_STORE_EMV_PARAM",
+          "class_name":"action.secstorage.ActionStoreEmvParam"
+        },
+        {
+          "name": "清EMV参数",
+          "action": "22",
+          "action_name": "ACTION_CLEAR_EMV_PARAM",
+          "class_name":"action.secstorage.ActionClearEmv"
+        }
+      ]
+    },
+    {
+      "name": "屏幕显示",
+      "chhildList": [
+        {
+          "name": "显示二维码",
+          "action": "30",
+          "action_name": "ACTION_DISP_AS_QR",
+          "class_name":"action.exscreen.ActionDisQr"
+        },
+        {
+          "name": "图片轮播",
+          "action": "31",
+          "action_name": "ACTION_IMG_CAROUSEL",
+          "class_name":"action.exscreen.ActionImageCarousel"
+        },
+        {
+          "name": "加载轮播图片",
+          "action": "32",
+          "action_name": "ACTION_STORAGE_IMG",
+          "class_name":"action.exscreen.ActionStorageImg"
+        },
+        {
+          "name": "小屏待机",
+          "action": "33",
+          "action_name": "ACTION_DISPLAY_IDLE",
+          "class_name":"action.exscreen.ActionDisplayIdle"
+        },
+        {
+          "name": "显示用户信息",
+          "action": "34",
+          "action_name": "ACTION_SHOW_CUSTOM_MSG",
+          "class_name":"action.exscreen.ActionShowCustomMsg"
+        }
+      ]
+    },
+    {
+      "name": "pinpad",
+      "chhildList": [
+        {
+          "name": "检测是否在线",
+          "action": "40",
+          "action_name": "ACTION_CHECK_ONLINE",
+          "class_name":"action.pinpad.ActionCheckOnline"
+        },
+        {
+          "name": "获取版本",
+          "action": "41",
+          "action_name": "ACTION_GET_VERSION",
+          "class_name":"action.pinpad.ActionGetVersion"
+        },
+        {
+          "name": "加载传输密钥",
+          "action": "42",
+          "action_name": "ACTION_LOAD_KPK",
+          "class_name":"action.pinpad.ActionLoadKpk"
+        },
+        {
+          "name": "加载主密钥",
+          "action": "43",
+          "action_name": "ACTION_LOAD_MKEY",
+          "class_name":"action.pinpad.ActionLoadMkey"
+        },
+        {
+          "name": "加载工作密钥",
+          "action": "44",
+          "action_name": "ACTION_LOAD_WKEY",
+          "class_name":"action.pinpad.ActionLoadWkey"
+        },
+        {
+          "name": "输入密码",
+          "action": "45",
+          "action_name": "ACTION_GET_PIN",
+          "class_name":"action.pinpad.ActionGetPin"
+        },
+        {
+          "name": "显示余额",
+          "action": "46",
+          "action_name": "ACTION_DISP_BALANCE",
+          "class_name":"action.pinpad.ActionDispBalance"
+        },
+        {
+          "name": "加解密测试",
+          "action": "47",
+          "action_name": "ACTION_TEST_CRYPT",
+          "class_name":"action.pinpad.ActionTestCrypt"
+        },
+        {
+          "name": "CMD_AUTHORIZE",
+          "action": "48",
+          "action_name": "ACTION_AUTHORIZE",
+          "class_name":"action.pinpad.ActionAuthorize"
+        },
+        {
+          "name": "获取时间",
+          "action": "49",
+          "action_name": "ACTION_GET_TIME",
+          "class_name":"action.pinpad.ActionGetTime"
+        },
+        {
+          "name": "CMD_STOP",
+          "action": "50",
+          "action_name": "ACTION_STOP",
+          "class_name":"action.pinpad.ActionStop"
+        },
+        {
+          "name": "CMD_NFC_SELECT",
+          "action": "51",
+          "action_name": "ACTION_NFC_SELECT",
+          "class_name":"action.pinpad.ActionNfcSelect"
+        },
+        {
+          "name": "CMD_NFC_APDU",
+          "action": "52",
+          "action_name": "ACTION_NFC_APDU",
+          "class_name":"action.pinpad.ActionNfcApdu"
+        },
+        {
+          "name": "CMD_MIFARE_AUTH",
+          "action": "53",
+          "action_name": "ACTION_MIFARE_AUTH",
+          "class_name":"action.pinpad.ActionMifareAuth"
+        },
+        {
+          "name": "CMD_MIFARE_DECREMENT",
+          "action": "54",
+          "action_name": "ACTION_MIFARE_DECREMENT",
+          "class_name":"action.pinpad.ActionMifareDecrement"
+        },
+        {
+          "name": "CMD_MIFARE_INCREMENT",
+          "action": "55",
+          "action_name": "ACTION_MIFARE_INCREMENT",
+          "class_name":"action.pinpad.ActionMifareIncrement"
+        },
+        {
+          "name": "CMD_MIFARE_RESTORE",
+          "action": "56",
+          "action_name": "ACTION_MIFARE_RESTORE",
+          "class_name":"action.pinpad.ActionMifareRestore"
+        },
+        {
+          "name": "CMD_MIFARE_TRANSFER",
+          "action": "57",
+          "action_name": "ACTION_MIFARE_TRANSFER",
+          "class_name":"action.pinpad.ActionMifareTransfer"
+        },
+        {
+          "name": "CMD_MIFARE_READ",
+          "action": "58",
+          "action_name": "ACTION_MIFARE_READ",
+          "class_name":"action.pinpad.ActionMifareRead"
+        }
+      ]
+    },
+    {
+      "name": "卡片",
+      "chhildList": [
+        {
+          "name": "搜接触卡",
+          "action": "70",
+          "action_name": "ACTION_SEARCH_CARD",
+          "class_name":"action.card.ActionSearchCard"
+        },
+        {
+          "name": "交易",
+          "action": "71",
+          "action_name": "ACTION_SEARCH_NFC",
+          "class_name":"action.card.ActionSearchNfc"
+        },
+        {
+          "name": "CMD_EMV_ISSUER_PROC",
+          "action": "73",
+          "action_name": "ACTION_EMV_ISSUER_PROC",
+          "class_name":"action.card.ActionProc"
+        },
+        {
+          "name": "CMD_EMV_READ_RECORD",
+          "action": "74",
+          "action_name": "ACTION_EMV_READ_RECORD",
+          "class_name":"action.card.ActionEmvRecord"
+        },
+        {
+          "name": "IC卡检测",
+          "action": "75",
+          "action_name": "ACTION_ICSLOT",
+          "class_name":"action.card.ActionIcslot"
+        }
+      ]
+    }
+  ]
+}
