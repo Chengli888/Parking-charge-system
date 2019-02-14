@@ -10,3 +10,7 @@
 
 video that show this project
 https://drive.google.com/drive/folders/13Yc37YYNE7Gp0VkWccRqIIghsdZD6oo2?usp=sharing
+
+This is application is patent own by Li Cheng, and protect by Central government of china， if you want to use it please tell me.
+
+Li Cheng
