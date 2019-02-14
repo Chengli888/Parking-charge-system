@@ -1,4 +1,5 @@
 # Parking-charge-system:
+This application is patent own by Li Cheng, and protect by Central government of china， if you want to use it please tell me.
 
 •	Implemented login, register  function(use j2EE technology to get relative information in cloud server  to verify user login information 
 
@@ -10,7 +11,5 @@
 
 video that show this project
 https://drive.google.com/drive/folders/13Yc37YYNE7Gp0VkWccRqIIghsdZD6oo2?usp=sharing
-
-This is application is patent own by Li Cheng, and protect by Central government of china， if you want to use it please tell me.
 
 Li Cheng
